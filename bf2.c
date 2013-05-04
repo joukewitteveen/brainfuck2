@@ -285,7 +285,7 @@ int main( int argc, char *argv[] ){
         return 1;
       } //if
       if( state.stack.head != 0 ){
-        puts( "Error: missing ']'" );
+        printf( "Error: missing '%c'\n", END );
         return 1;
       } //if
   } //switch
